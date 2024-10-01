@@ -1,0 +1,29 @@
+nav{    
+    width: 80%;
+}
+
+.nav__Trackings {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista_sidebar_trackings {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .lista_sidebar_trackings {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+

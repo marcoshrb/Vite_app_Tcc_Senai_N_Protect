@@ -1,0 +1,42 @@
+.HomePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.Logo_Home{
+    height: 130px;
+    width: 215px;
+    margin: 25px 0px 25px 0px;
+}
+
+.Overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+}
+.nav__Options {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width : 900px) {
+    .nav__Options {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.wrap_flip_card_small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
